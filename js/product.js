@@ -17,7 +17,7 @@ import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
             })
             .catch((err) => {
                 alert(err.data.message);
-                window.location = 'login.html';
+                window.location = 'index.html';
             });
         },
         getProducts(){
